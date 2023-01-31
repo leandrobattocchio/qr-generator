@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+  }
+  .qr-container{
+    background-color: hsl(212, 45%, 89%);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .qr{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 21vw;
+    height: 50vh;
+  }
+  #qr-image{
+    margin: 15px 0;
+    border-radius: 15px;
+    width: 19vw;
+    height: 36vh;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 23px;
+    color: hsl(218, 44%, 22%);
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .qr-input form button{
+    display: block;
+    text-align: center;
+    margin: 12px auto;
+    font-size: 17px;
+    border-radius: 5px;
+    border-color: rgb(70, 72, 72);
+    color: hsl(216, 5%, 19%);
+    background-color: rgb(183, 195, 235);
+  }
+  .qr-input form input{
+    border-radius: 2px;
+    font-size: 15px;
+    width: 20vw;
+  }
+  #title{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin-top: 50px;
+  }
+  .qr-input{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .text-qr{
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(220, 15%, 55%);
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  @media (max-width: 600px) {
+    #qr-image{
+      margin: 15px 0;
+      border-radius: 15px;
+      width: 79vw;
+      height: 36vh;
+    }
+    .qr{
+      width: 85vw;
+    }
+    .qr-input form input{
+        width: 50vw;
+    }
+  }
+  @media (max-width: 375px) {
+    .qr{
+      min-height: 73vh;
+    }
+  }
